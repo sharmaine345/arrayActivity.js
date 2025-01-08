@@ -1,0 +1,11 @@
+let favSingers = ["Adele", "Bruno Mars", "Ed Sheeran"];
+console.log(favSingers[0]); // Log the first singer
+
+// Create an array of favorite numbers
+let favNumbers = [7, 14, 21, 28];
+
+// Create a mixed array
+let mixedArr = ["string", ["otherArray"], 123, true];
+
+// Log each item in mixedArr
+mixedArr.forEach((item) => console.log(item));
